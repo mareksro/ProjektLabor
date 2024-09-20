@@ -12,3 +12,4 @@
 | omniva  | wayzim  |
 | waze  |   |
 | bolt  |  |
+| Latvijas pasts |   |
