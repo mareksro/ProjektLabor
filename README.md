@@ -3,3 +3,5 @@
 | ------------- | ------------- |
 | google maps  | dijkstra  |
 | omniva  | wayzim  |
+| waze  |   |
+| bolt  |  |
