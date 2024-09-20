@@ -9,8 +9,8 @@
 | uznemums  | algoritms | programmas tips|
 | ------------- | ------------- |  |
 | google maps  | dijkstra  | Aplikācija|
-| omniva  | wayzim  | |
-| waze  |   | |
-| bolt  |  | |
-| Latvijas pasts |   |
+| omniva  | wayzim  | - |
+| waze  | - | - |
+| bolt  | - | - |
+| Latvijas pasts |   |  |
 | Routific | | Programmatūra |
