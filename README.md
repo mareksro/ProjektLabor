@@ -5,6 +5,7 @@
     • Aprakstīt līdzīgos risinājumus
     • Apkopot novērojumus tabulā
   – Iepazīties ar intelektisko algoritmu
+
 | uznemums  | algoritms |
 | ------------- | ------------- |
 | google maps  | dijkstra  |
