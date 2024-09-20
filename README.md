@@ -14,5 +14,4 @@
 | omniva  | wayzim  | - |
 | waze  | - | - |
 | bolt  | - | - |
-| Latvijas pasts |   |  |
 | Routific | | Programmatūra |
