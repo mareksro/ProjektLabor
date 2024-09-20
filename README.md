@@ -1,10 +1,10 @@
 # Projektēšanas laboratorija
 1. Risinājumu pārskats
-  – Līdzīgi tehniskie risinājumi
-    • Atrast un izvērtēt līdzīgos risinājums
-    • Aprakstīt līdzīgos risinājumus
-    • Apkopot novērojumus tabulā
-  – Iepazīties ar intelektisko algoritmu
+  – Līdzīgi tehniskie risinājumi<br>
+    • Atrast un izvērtēt līdzīgos risinājums<br>
+    • Aprakstīt līdzīgos risinājumus<br>
+    • Apkopot novērojumus tabulā<br>
+  – Iepazīties ar intelektisko algoritmu<br>
 
 | uznemums  | algoritms |
 | ------------- | ------------- |
