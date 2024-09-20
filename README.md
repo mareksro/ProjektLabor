@@ -7,7 +7,7 @@
   – Iepazīties ar intelektisko algoritmu<br>
 
 | uznemums  | algoritms | programmas tips|
-| ------------- | ------------- |  |
+| ------------- | ------------- | -------------  |
 | google maps  | dijkstra  | Aplikācija|
 | omniva  | wayzim  | - |
 | waze  | - | - |
