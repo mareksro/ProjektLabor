@@ -1,5 +1,14 @@
 # Projektēšanas laboratorija
 <h3>Preču piegādes maršrutēšana</h1>
+
+<h6>
+Komanda:<br>
+  - Lauma Gailīte<br>
+  - Helēna Anna Bunka<br>
+  - Kevins Deivs Gūtmanis<br>
+  - Emīls Laucis<br>
+  - Mareks Rozenblats<br>
+</h6>
 <h5><b>Risinājumu pārskats</b>
   – Līdzīgi tehniskie risinājumi<br>
     • Atrast un izvērtēt līdzīgos risinājums<br>
