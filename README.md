@@ -28,6 +28,7 @@ Komanda:<br>
 
 
 | **Nr** | **Lietotāju stāsts** | **Prioritāte** |
+| ------------- | ------------- | -------------  |
 | 1. | Uzņēmums vēlas nodrošināt ātru piegādi, jo pasūtījumam jānonāk pie klienta savlaicīgi. | |
 | 2. | Uzņēmums vēlas nogādāt preci labā stāvoklī, jo jānodrošina klienta uzticamība pakalpojumam. | |
 | 3. | Uzņēmums vēlas efektīvākus maršrutus, jo jāpiegādā vairākas preces. | |
