@@ -26,19 +26,19 @@ Komanda:<br>
 | DHL | Ant Colony Optimization, TSP | Tiek ņemts vērā gan īsākais gan "labākais ceļš", ņemot vērā tikai visvairāk izmantotos maršrutus un reāllaika aktivitāti (piemēram uz ceļa), neizmantojot datus no retāk veiktajiem maršrutiem.| Efektīvs sarežģītu optimizācijas problēmu risināšanā, kā arī dinamiski pielāgojas mainīgiem apstākļiem. | Lēns konverģences ātrums sarežģītos gadījumos un heuristiska metode, kas nenodrošina garantētu optimālu risinājumu. |
 | Omniva  | QR, svītru kodi, CTS (Courier tracking systems) | Skeneri nolasa kodus dažādos kontrolpunktos piegādes maršrutā, atjauninot sistēmu ar atrašanās vietas un statusa datiem.| Paziņojumi par pasūtījuma piegadāšanu konrolpunktos / galapunktā | Limitēts informācijas daudzums par pasūtījumu, Nav reāllaika gps izsekošana|
 
-
-| **Nr** | **Lietotāju stāsts** | **Prioritāte** |
-| ------------- | ------------- | -------------  |
-| 1. | Uzņēmums vēlas nodrošināt ātru piegādi, jo pasūtījumam jānonāk pie klienta savlaicīgi. | |
-| 2. | Uzņēmums vēlas nogādāt preci labā stāvoklī, jo jānodrošina klienta uzticamība pakalpojumam. | |
-| 3. | Uzņēmums vēlas efektīvākus maršrutus, jo jāpiegādā vairākas preces. | |
-| 4. | Uzņēmums vēlas prognozēt pasūtījumu skaitu, jo jāmaksimizē peļņa. | |
-| 5. | Uzņēmums vēlas uzticamus darbiniekus, jo jānodrošina augsta līmeņa serviss | | 
-| 6. | Uzņēmums vēlas izvairīties no pēdējā brīdī atceltiem pasūtījumiem, jo tiek tērēti lieki resursi. | |
-
  <h6><em>"Sometimes Google has better traffic data, I assume because they grab location data from every android device, while Waze only uses data from active Waze App users. On routes where many Wazers travel, I find the Waze data to be very percise, ETA times barely differ. Waze foruma ieraksts: https://www.waze.com/forum/viewtopic.php?t=218943"<br>
 
  <br> "Ant-colony optimization algorithm-based programs have helped companies like DHL identify cost savings in the ground logistic network for supply chain transportation analysts. Publications show that the program has helped the company save millions of dollars annually and increase its profits by more than 15% compared with previous processes." Avots: https://pubsonline.informs.org/doi/abs/10.1287/inte.2020.1046</em></h6>
+
+### Lietotāju stāsti
+| **Nr** | **Lietotāju stāsts** | **Prioritāte** |
+| ------------- | ------------- | -------------  |
+| 1. | Uzņēmums vēlas nodrošināt ātru piegādi, jo pasūtījumam jānonāk pie klienta savlaicīgi. | Zema |
+| 2. | Uzņēmums vēlas nogādāt preci labā stāvoklī, jo jānodrošina klienta uzticamība pakalpojumam. | Augsta |
+| 3. | Uzņēmums vēlas efektīvākus maršrutus, jo jāpiegādā vairākas preces. | Augsta |
+| 4. | Uzņēmums vēlas prognozēt pasūtījumu skaitu, jo jāmaksimizē peļņa. | Vidēja |
+| 5. | Uzņēmums vēlas uzticamus darbiniekus, jo jānodrošina augsta līmeņa serviss | Augsta | 
+| 6. | Uzņēmums vēlas izvairīties no pēdējā brīdī atceltiem pasūtījumiem, jo tiek tērēti lieki resursi. | Augsta |
 
 ### Konceptu modeļu diagramma
 ![ProLab](https://github.com/user-attachments/assets/3d6490ea-d87f-4f59-908b-5c282be4203f)
