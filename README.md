@@ -44,7 +44,7 @@ Komanda:<br>
 ![image](https://github.com/user-attachments/assets/210d26a3-c798-41e7-bde3-462d388966c0)
 
 ### Tehnoloģiju steks
-Front-end (klienta puses) tehnoloģijas:<br>
+Front-end (klienta puses) tehnoloģijas: Javascript, CSS, HTML, Pārlūks <br>
 Back end (Servera puses) tehnoloģijas:<br>
 Datu bāze datu glabāšanai:<br>
 Serveris:<br>
