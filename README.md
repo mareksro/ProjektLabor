@@ -45,7 +45,10 @@ Komanda:<br>
 
 ### Tehnoloģiju steks
 Front-end (klienta puses) tehnoloģijas: Javascript, CSS, HTML, Pārlūks <br>
-Back end (Servera puses) tehnoloģijas:<br>
-Datu bāze datu glabāšanai:<br>
-Serveris:<br>
-Rīki un bibliotēkas: Flask, Python<br>
+Satvars (servera puse): Flask <br>
+Programmēšanas valoda: Python <br>
+Datu bāze datu glabāšanai: PostgreSQL <br>
+Serveris: Apache <br>
+OS: Ubuntu Server 24.04LTS<br>
+Virtualizācija: Oracle VMBox <br> 
+
