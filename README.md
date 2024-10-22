@@ -41,7 +41,7 @@ Komanda:<br>
 | 6. | Uzņēmums vēlas izvairīties no pēdējā brīdī atceltiem pasūtījumiem, jo tiek tērēti lieki resursi. | Augsta |
 
 ### Konceptu modeļu diagramma
-![ProLab](https://github.com/user-attachments/assets/3d6490ea-d87f-4f59-908b-5c282be4203f)
+![Ekrānuzņēmums 2024-10-21 114450](https://github.com/user-attachments/assets/215bba55-9ae4-41ef-aca8-0dc1c720a7b6)
 
 ### Tehnoloģiju steks
 Front-end (klienta puses) tehnoloģijas:<br>
