@@ -42,3 +42,10 @@ Komanda:<br>
 
 ### Konceptu modeļu diagramma
 ![ProLab](https://github.com/user-attachments/assets/3d6490ea-d87f-4f59-908b-5c282be4203f)
+
+### Tehnoloģiju steks
+Front-end (klienta puses) tehnoloģijas:
+Back end (Servera puses) tehnoloģijas:
+Datu bāze datu glabāšanai:
+Serveris:
+Rīki un bibliotēkas: Flask, Python
