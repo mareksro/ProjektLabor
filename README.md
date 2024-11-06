@@ -41,7 +41,7 @@ Komanda:<br>
 | 6. | Uzņēmums vēlas izvairīties no pēdējā brīdī atceltiem pasūtījumiem, jo tiek tērēti lieki resursi. | Augsta |
 
 ### Konceptu modeļu diagramma
-![image](https://github.com/user-attachments/assets/210d26a3-c798-41e7-bde3-462d388966c0)
+<img width="511" alt="Screenshot 2024-11-06 at 11 13 58" src="https://github.com/user-attachments/assets/5022afb9-0fd5-4392-b4e3-0491f3981cb7">
 
 ### Tehnoloģiju steks
 Front-end (klienta puses) tehnoloģijas: Javascript, CSS, HTML, Pārlūks <br>
