@@ -67,7 +67,7 @@ Virtualizācija: Oracle VMBox <br>
 es nezinu kas tas ir bet lkm vajag
 
 ### Algoritms
-![Actions are written here](https://github.com/user-attachments/assets/79291762-aebe-4447-80fd-493c2e5a2965)
+![Blokshema](https://github.com/user-attachments/assets/d2cb4d61-2b8f-4532-aa40-c99f291101c8)
 
 ### Algoritma pseidokods
 Būs algoritma pseidokods :)
