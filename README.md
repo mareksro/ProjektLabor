@@ -70,7 +70,92 @@ es nezinu kas tas ir bet lkm vajag
 ![Blokshema](https://github.com/user-attachments/assets/d2cb4d61-2b8f-4532-aa40-c99f291101c8)
 
 ### Algoritma pseidokods
-Būs algoritma pseidokods :)
+START
+  // User Login or Registration
+  INPUT username, password
+  IF user_has_account(username, password) THEN
+    LOGIN
+  ELSE
+    REGISTER(username, password)
+    LOGIN
+  ENDIF
+  
+  WHILE TRUE DO
+    DISPLAY "Select an option:"
+    DISPLAY "1 - Create a route"
+    DISPLAY "2 - Generate a new route"
+    DISPLAY "3 - View existing routes"
+    DISPLAY "4 - Exit program"
+    INPUT user_choice
+    
+    IF user_choice == 1 THEN
+      // Option 1: Create a Route
+      WHILE TRUE DO
+        INPUT address
+        SAVE_TO_DATABASE(address)
+        DISPLAY "Address saved. Do you want to:"
+        DISPLAY "1 - Add another address"
+        DISPLAY "2 - Go back to main menu"
+        INPUT sub_choice
+        IF sub_choice == 2 THEN
+          BREAK
+        ENDIF
+      ENDWHILE
+      
+    ELSE IF user_choice == 2 THEN
+      // Option 2: Generate a New Route
+      WHILE TRUE DO
+        GENERATE_PENDING_ROUTE()
+        DISPLAY "Do you want to:"
+        DISPLAY "1 - Approve the routes"
+        DISPLAY "2 - Generate new routes"
+        INPUT sub_choice
+        IF sub_choice == 1 THEN
+          APPROVE_ROUTES()
+          DISPLAY "Do you want to view approved routes?"
+          DISPLAY "1 - Yes"
+          DISPLAY "2 - No, return to main menu"
+          INPUT view_choice
+          IF view_choice == 1 THEN
+            user_choice = 3 // Redirect to option 3
+          ELSE
+            BREAK
+          ENDIF
+        ENDIF
+      ENDWHILE
+      
+    ELSE IF user_choice == 3 THEN
+      // Option 3: View Existing Routes
+      DISPLAY "How do you want to view routes?"
+      DISPLAY "1 - Table"
+      DISPLAY "2 - Map"
+      INPUT view_choice
+      IF view_choice == 1 THEN
+        routes = FETCH_APPROVED_ROUTES_FROM_DATABASE()
+        DISPLAY_TABLE(routes)
+        DISPLAY "Do you want to mark a route as completed?"
+        DISPLAY "1 - Yes"
+        DISPLAY "2 - No"
+        INPUT complete_choice
+        IF complete_choice == 1 THEN
+          INPUT route_id
+          MARK_ROUTE_AS_COMPLETED(route_id)
+          DELETE_USED_ADDRESSES(route_id)
+        ENDIF
+      ELSE IF view_choice == 2 THEN
+        routes = FETCH_APPROVED_ROUTES_FROM_DATABASE()
+        DISPLAY_MAP(routes)
+      ENDIF
+      
+    ELSE IF user_choice == 4 THEN
+      // Option 4: Exit Program
+      DISPLAY "Thank you for using the Route Management System. Goodbye!"
+      BREAK
+    ELSE
+      DISPLAY "Invalid choice. Please select a valid option."
+    ENDIF
+  ENDWHILE
+END
 
 <h2>Novērtējums</h2>
 
