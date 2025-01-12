@@ -15,7 +15,7 @@ Komanda:<br>
 problemas nostadne seit
 
 <h5>Darba mērķis</h5>
-Projekta mērķis - Izstrādāt web lapu kas uzrāda izejošo pasūtījumu informāciju kā laiks un attālums, kur algoritms aprēķina izdevīgāko maršrutu pasūtījuma piegādei.
+Projekta mērķis - Izstrādāt web lapu kas uzrāda izejošo pasūtījumu informāciju kā laiks un attālums, kur algoritms aprēķina izdevīgāko maršrutu pasūtījuma piegādei.<br>
 Algoritma darbības mērķis - Pēc pasūtījumu galamērķiem tiek izveidoti maršruti maksimālajam kurjeru daudzumam, kas mums ir pieejams. Ja visi kurjeri ir aizņemti, algoritms ievāc tekošos datus un nākamajā dienā dod jaunus mašrutus, prioritāri ņemot galamērķus kas ir nākamie rindā. 
 
 <h2>Līdzīgo risinājumu pārskats</h2>
@@ -75,6 +75,7 @@ Būs algoritma pseidokods :)
 <h2>Novērtējums</h2>
 
 ### Novērtēšanas plāns
+<h5>Novērtēšanas mērķis</h5>
 
 ### Novērtēšanas rezultāts
 
