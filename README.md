@@ -170,7 +170,7 @@ es nezinu kas tas ir bet lkm vajag
 ### Prasību izpildes kontrolsaraksts
 | **Nr** | **Lietotāju stāsts** | **Izpildīts (Jā/Nē)** | **Komentārs** |
 | ------------- | ------------- | -------------  | -------------  |
-| 1. | Uzņēmums vēlas nodrošināt ātru piegādi, jo pasūtījumam jānonāk pie klienta savlaicīgi. | Jā| Algoritms izveido kurjera maršrutu tā, lai būtu jāprauc pa īsāko ceļu.|
+| 1. | Uzņēmums vēlas nodrošināt ātru piegādi, jo pasūtījumam jānonāk pie klienta savlaicīgi. | Jā| Algoritms izveido kurjera maršrutu tā, lai būtu jābrauc pa īsāko ceļu.|
 | 2. | Uzņēmums vēlas nogādāt preci labā stāvoklī, jo jānodrošina klienta uzticamība pakalpojumam. | Nē | Šis netika izstrādāts, jo tas nav vērsts uz web lapas izstrādi, bet gan cilvēkresursiem, cik atbildīgi ir kurjeri un noliktavas darbinieki. |
 | 3. | Uzņēmums vēlas efektīvākus maršrutus, jo jāpiegādā vairākas preces. | Jā | Izstrādātais algoritms kurjeram izveido maršrutu ar pēc iespējas vairāk gala punktiem balstoties uz to ka kurjeram vidēji darba diena ir 7h 30 min.|
 | 4. | Uzņēmums vēlas prognozēt pasūtījumu skaitu, jo jāmaksimizē peļņa. | Nē | Šis netika izstrādāts, jo nepietika laika, taču ja būtu vēl laiks un daudz ievadies dati uz ko balstīties, uzņēmumam tas būtu noderīgi.|
