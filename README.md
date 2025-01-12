@@ -14,8 +14,9 @@ Komanda:<br>
 <h5>Problēmas nostādne</h5>
 problemas nostadne seit
 
-<h5>Darba un novērtēšanas mērķis</h5>
-darba merkis seit
+<h5>Darba mērķis</h5>
+Projekta mērķis - Izstrādāt web lapu kas uzrāda izejošo pasūtījumu informāciju kā laiks un attālums, kur algoritms aprēķina izdevīgāko maršrutu pasūtījuma piegādei.
+Algoritma darbības mērķis - Pēc pasūtījumu galamērķiem tiek izveidoti maršruti maksimālajam kurjeru daudzumam, kas mums ir pieejams. Ja visi kurjeri ir aizņemti, algoritms ievāc tekošos datus un nākamajā dienā dod jaunus mašrutus, prioritāri ņemot galamērķus kas ir nākamie rindā. 
 
 <h2>Līdzīgo risinājumu pārskats</h2>
 <h5>Līdzīgi tehniskie risinājumi<br>
