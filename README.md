@@ -103,60 +103,61 @@ Programma tiek rakstīta uz Python valodas, un tā kā mērķis ir izveidot māj
         ENDIF
       ENDWHILE
       
-    ELSE IF user_choice == 2 THEN
-      // Option 2: Ģenerēt maršrutu
-      WHILE TRUE DO
-        GENERATE_PENDING_ROUTE()
-        DISPLAY "Do you want to:"
-        DISPLAY "1 - Approve the routes"
-        DISPLAY "2 - Generate new routes"
+  ELSE IF user_choice == 2 THEN
+    // Option 2: Ģenerēt maršrutu
+    WHILE TRUE DO
+        GENERATE_PENDING_ROUTE() 
+        DISPLAY "Maršruts ģenerēts. Vai vēlaties:"
+        DISPLAY "1 - Ģenerēt jaunu maršrutu"
+        DISPLAY "2 - Atgriezties izvēlē"
         INPUT sub_choice
         IF sub_choice == 1 THEN
-          APPROVE_ROUTES()
-          DISPLAY "Do you want to view approved routes?"
-          DISPLAY "1 - Yes"
-          DISPLAY "2 - No, return to main menu"
-          INPUT view_choice
-          IF view_choice == 1 THEN
-            user_choice = 3 // Redirect to option 3
-          ELSE
-            BREAK
-          ENDIF
+            CONTINUE 
+        ELSE IF sub_choice == 2 THEN
+            BREAK 
         ENDIF
-      ENDWHILE
+    ENDWHILE
       
     ELSE IF user_choice == 3 THEN
-      // Option 3: View Existing Routes
-      DISPLAY "How do you want to view routes?"
-      DISPLAY "1 - Table"
-      DISPLAY "2 - Map"
-      INPUT view_choice
-      IF view_choice == 1 THEN
-        routes = FETCH_APPROVED_ROUTES_FROM_DATABASE()
-        DISPLAY_TABLE(routes)
-        DISPLAY "Do you want to mark a route as completed?"
-        DISPLAY "1 - Yes"
-        DISPLAY "2 - No"
-        INPUT complete_choice
-        IF complete_choice == 1 THEN
-          INPUT route_id
-          MARK_ROUTE_AS_COMPLETED(route_id)
-          DELETE_USED_ADDRESSES(route_id)
-        ENDIF
-      ELSE IF view_choice == 2 THEN
-        routes = FETCH_APPROVED_ROUTES_FROM_DATABASE()
-        DISPLAY_MAP(routes)
-      ENDIF
-      
-    ELSE IF user_choice == 4 THEN
-      // Option 4: Exit Program
-      DISPLAY "Thank you for using the Route Management System. Goodbye!"
+    // Option 3: Maršrutu apstiprināšana
+    routes = FETCH_PENDING_ROUTES_FROM_DATABASE()
+    DISPLAY "Apstiprināmo maršrutu tabula:"
+    DISPLAY_TABLE(routes) 
+    DISPLAY "1 - Apstiprināt maršrutu"
+    DISPLAY_TABLE(routes) 
+    DISPLAY "2 - Atzīmēt kā pabeigtu un izdzēst adreses"
+    DISPLAY "3 - Atgriezties izvēlē"
+    INPUT sub_choice
+    IF sub_choice == 1 THEN
+      INPUT route_id
+      APPROVE_ROUTE(route_id)
+    ELSE IF sub_choice == 2 THEN
+      INPUT route_id
+      MARK_ROUTE_AS_COMPLETED(route_id)
+      DELETE_USED_ADDRESSES(route_id)
+    ELSE IF sub_choice == 3 THEN
       BREAK
-    ELSE
-      DISPLAY "Invalid choice. Please select a valid option."
     ENDIF
-      ENDWHILE
-    END
+
+  ELSE IF user_choice == 4 THEN
+    // Option 4: Apskatīt maršrutus kartē
+    routes = FETCH_APPROVED_ROUTES_FROM_DATABASE()
+    DISPLAY_MAP(routes)
+    DISPLAY "1 - Atgriezties izvēlē"
+    INPUT sub_choice
+    IF sub_choice == 1 THEN
+      BREAK
+
+  ELSE IF user_choice == 5 THEN
+    // Option 5: Iziešana no programmas
+    DISPLAY "Uz redzēšanos!"
+    BREAK
+
+  ELSE
+    DISPLAY "Nederīga izvēle. Lūdzu mēģiniet vēlreiz."
+  ENDIF
+ENDWHILE
+END
 
 <h2>Novērtējums</h2>
 
