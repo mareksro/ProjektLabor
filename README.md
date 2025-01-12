@@ -9,8 +9,16 @@ Komanda:<br>
   - Emīls Laucis<br>
   - Mareks Rozenblats<br>
 </h6>
-<h5><b>Līdzīgo risinājumu pārskats</b>
-  – Līdzīgi tehniskie risinājumi<br>
+
+<h2> Ievads </h2>
+<h5>Problēmas nostādne</h5>
+problemas nostadne seit
+
+<h5>Darba un novērtēšanas mērķis</h5>
+darba merkis seit
+
+<h2>Līdzīgo risinājumu pārskats</h2>
+<h5>Līdzīgi tehniskie risinājumi<br>
     • Atrast un izvērtēt līdzīgos risinājums<br>
     • Aprakstīt līdzīgos risinājumus<br>
     • Apkopot novērojumus tabulā<br>
@@ -29,6 +37,8 @@ Komanda:<br>
  <h6><em>"Sometimes Google has better traffic data, I assume because they grab location data from every android device, while Waze only uses data from active Waze App users. On routes where many Wazers travel, I find the Waze data to be very percise, ETA times barely differ. Waze foruma ieraksts: https://www.waze.com/forum/viewtopic.php?t=218943"<br>
 
  <br> "Ant-colony optimization algorithm-based programs have helped companies like DHL identify cost savings in the ground logistic network for supply chain transportation analysts. Publications show that the program has helped the company save millions of dollars annually and increase its profits by more than 15% compared with previous processes." Avots: https://pubsonline.informs.org/doi/abs/10.1287/inte.2020.1046</em></h6>
+ 
+<h2>Tehniskais risinājums</h2>
 
 ### Lietotāju stāsti
 | **Nr** | **Lietotāju stāsts** | **Prioritāte** |
@@ -52,15 +62,22 @@ Serveris: XAMPP <br>
 OS: Windows Server 2022 <br>
 Virtualizācija: Oracle VMBox <br> 
 
+### Programmatūras apraksts
+es nezinu kas tas ir bet lkm vajag
+
 ### Algoritms
 ![Actions are written here](https://github.com/user-attachments/assets/79291762-aebe-4447-80fd-493c2e5a2965)
 
 ### Algoritma pseidokods
 Būs algoritma pseidokods :)
 
+<h2>Novērtējums</h2>
+
 ### Novērtēšanas plāns
 
 ### Novērtēšanas rezultāts
+
+<h2>Secinājumi</h2>
 
 ### Prasībuizpildes kontrolsaraksts
 | **Nr** | **Lietotāju stāsts** | **Izpildīts (Jā/Nē)** | **Komentārs** |
