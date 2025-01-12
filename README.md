@@ -70,23 +70,24 @@ es nezinu kas tas ir bet lkm vajag
 ![Blokshema](https://github.com/user-attachments/assets/d2cb4d61-2b8f-4532-aa40-c99f291101c8)
 
 ### Algoritma pseidokods<br>
-START
-  // User Login or Registration
-  INPUT username, password
-  IF user_has_account(username, password) THEN
-    LOGIN
-  ELSE
-    REGISTER(username, password)
-    LOGIN
-  ENDIF
+
+    START
+      // User Login or Registration
+      INPUT username, password
+      IF user_has_account(username, password) THEN
+        LOGIN
+      ELSE
+        REGISTER(username, password)
+        LOGIN
+      ENDIF
   
-  WHILE TRUE DO
-    DISPLAY "Select an option:"
-    DISPLAY "1 - Create a route"
-    DISPLAY "2 - Generate a new route"
-    DISPLAY "3 - View existing routes"
-    DISPLAY "4 - Exit program"
-    INPUT user_choice
+    WHILE TRUE DO
+      DISPLAY "Select an option:"
+      DISPLAY "1 - Create a route"
+      DISPLAY "2 - Generate a new route"
+      DISPLAY "3 - View existing routes"
+      DISPLAY "4 - Exit program"
+      INPUT user_choice
     
     IF user_choice == 1 THEN
       // Option 1: Create a Route
@@ -154,8 +155,8 @@ START
     ELSE
       DISPLAY "Invalid choice. Please select a valid option."
     ENDIF
-  ENDWHILE
-END
+      ENDWHILE
+    END
 
 <h2>Novērtējums</h2>
 
