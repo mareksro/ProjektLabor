@@ -12,11 +12,11 @@ Komanda:<br>
 
 <h2> Ievads </h2>
 <h5>Problēmas nostādne</h5>
-Maršruta izveidē ir būtiski, ka kurjers ir spējīgs vairāk apmeklēt katru adresi, kas tiek dota viņu darbdienā un ir nepieciešams pēc iespējas efektīvi piegādāt esošos pasūtījumus.
+Maršruta izveidē ir būtiski, ka kurjers ir spējīgs apmeklēt katru adresi, kas tiek dota viņu darbdienā un ir nepieciešams pēc iespējas efektīvāk piegādāt esošos pasūtījumus.
 
 <h5>Darba mērķis</h5>
-Projekta mērķis - Izstrādāt web lapu kas uzrāda izejošo pasūtījumu informāciju kā laiks un attālums, kur algoritms aprēķina izdevīgāko maršrutu pasūtījuma piegādei.<br>
-Algoritma darbības mērķis - Pēc pasūtījumu galamērķiem tiek izveidoti maršruti maksimālajam kurjeru daudzumam, kas mums ir pieejams. Ja visi kurjeri ir aizņemti, algoritms ievāc tekošos datus un nākamajā dienā dod jaunus mašrutus, prioritāri ņemot galamērķus kas ir nākamie rindā. 
+Projekta mērķis - Izstrādāt web lapu kas uzrāda kurjeru informāciju - veicamais maršruts un tā laiks, kur algoritms aprēķina izdevīgāko maršrutu pasūtījuma piegādei.<br>
+Algoritma darbības mērķis - Pēc pasūtījumu galamērķiem tiek izveidoti maršruti maksimālajam kurjeru daudzumam, kas mums ir pieejams. Ja visi kurjeri ir aizņemti, algoritms ievāc tekošos datus un nākamajā dienā dod jaunus mašrutus. 
 
 <h2>Līdzīgo risinājumu pārskats</h2>
 <h5>Līdzīgi tehniskie risinājumi<br>
