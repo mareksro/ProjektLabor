@@ -72,7 +72,7 @@ Programma tiek rakstīta uz Python valodas, un tā kā mērķis ir izveidot māj
 ### Algoritma pseidokods<br>
 
     START
-      // User Login or Registration
+      // User Ienakt or Registreties
       INPUT username, password
       IF user_has_account(username, password) THEN
         LOGIN
@@ -82,21 +82,21 @@ Programma tiek rakstīta uz Python valodas, un tā kā mērķis ir izveidot māj
       ENDIF
   
     WHILE TRUE DO
-      DISPLAY "Select an option:"
-      DISPLAY "1 - Create a route"
-      DISPLAY "2 - Generate a new route"
-      DISPLAY "3 - View existing routes"
-      DISPLAY "4 - Exit program"
+      DISPLAY "1 - Ievadīt adresi"
+      DISPLAY "2 - Ģenerēt maršrutu"
+      DISPLAY "3 - Maršrutu apstiprināšana"
+      DISPLAY "4 - Maršrutu karte"
+      DISPLAY "5 - Iziet"
       INPUT user_choice
     
     IF user_choice == 1 THEN
-      // Option 1: Create a Route
+      // Option 1: Ievadīt adresi
       WHILE TRUE DO
         INPUT address
         SAVE_TO_DATABASE(address)
-        DISPLAY "Address saved. Do you want to:"
-        DISPLAY "1 - Add another address"
-        DISPLAY "2 - Go back to main menu"
+        DISPLAY "Adrese saglabāta. Vai vēlaties:"
+        DISPLAY "1 - Ievadīt adresi"
+        DISPLAY "2 - Atgriezties izvēlē"
         INPUT sub_choice
         IF sub_choice == 2 THEN
           BREAK
@@ -104,7 +104,7 @@ Programma tiek rakstīta uz Python valodas, un tā kā mērķis ir izveidot māj
       ENDWHILE
       
     ELSE IF user_choice == 2 THEN
-      // Option 2: Generate a New Route
+      // Option 2: Ģenerēt maršrutu
       WHILE TRUE DO
         GENERATE_PENDING_ROUTE()
         DISPLAY "Do you want to:"
