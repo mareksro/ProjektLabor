@@ -9,7 +9,7 @@ Komanda:<br>
   - Emīls Laucis<br>
   - Mareks Rozenblats<br>
 </h6>
-<h5><b>Risinājumu pārskats</b>
+<h5><b>Līdzīgo risinājumu pārskats</b>
   – Līdzīgi tehniskie risinājumi<br>
     • Atrast un izvērtēt līdzīgos risinājums<br>
     • Aprakstīt līdzīgos risinājumus<br>
