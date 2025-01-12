@@ -183,7 +183,7 @@ Programma tiek rakstīta uz Python valodas, un tā kā mērķis ir izveidot māj
 | **Grupas dalībnieks** | **Veikums** |
 | ------------- | ------------- |
 | Lauma Gailīte | Līdzīgo risinajumu pārskats, lietotāju stāsti, konceptu modeļa diagramma, tehnoloģiju steks, UI dizains. |
-| Helēna Anna Bunka | Līdzīgo risinajumu pārskats, lietotāju stāsti, konceptu modeļa diagramma, tehnoloģiju steks, back-end, blokshēma, pseidokods, prasību izpildes kontrolsaraksts.|
-| Mareks Rozenblats | Līdzīgo risinajumu pārskats, lietotāju stāsti, konceptu modeļa diagramma, tehnoloģiju steks, back-end, datu bāze.|
+| Helēna Anna Bunka | Līdzīgo risinajumu pārskats, lietotāju stāsti, konceptu modeļa diagramma, tehnoloģiju steks, back-end, blokshēma, pseidokods, prasību izpildes kontrolsaraksts, plakāts.|
+| Mareks Rozenblats | Līdzīgo risinajumu pārskats, lietotāju stāsti, konceptu modeļa diagramma, tehnoloģiju steks, back-end, datu bāze, programmatūras apraksts, problēmas nostādne.|
 | Deivs Kevins Gūtmanis | Līdzīgo risinajumu pārskats, lietotāju stāsti, konceptu modeļa diagramma, tehnoloģiju steks, serveris, blokshēma.|
 | Emīls Laucis | Līdzīgo risinajumu pārskats, lietotāju stāsti, konceptu modeļa diagramma, datu bāze, daļēji back-end, efektivitāes novērtēšana, plakāts.|
