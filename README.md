@@ -156,8 +156,8 @@ Programma tiek rakstīta uz Python valodas, un tā kā mērķis ir izveidot māj
     ELSE
       DISPLAY "Nederīga izvēle. Lūdzu mēģiniet vēlreiz."
     ENDIF
-  ENDWHILE
-  END
+    ENDWHILE
+    END
 
 
 <h2>Novērtējums</h2>
