@@ -72,7 +72,7 @@ Programma tiek rakstīta uz Python valodas, un tā kā mērķis ir izveidot māj
 ### Algoritma pseidokods<br>
 
     START
-      // User Ielogoties vai Reģistrēties
+      // Ielogoties vai Reģistrēties
       INPUT username, password
       IF user_has_account(username, password) THEN
         LOGIN
