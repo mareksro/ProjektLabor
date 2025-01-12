@@ -71,93 +71,93 @@ Programma tiek rakstīta uz Python valodas, un tā kā mērķis ir izveidot māj
 
 ### Algoritma pseidokods<br>
 
-START
-  // User Ielogoties vai Reģistrēties
-  INPUT username, password
-  IF user_has_account(username, password) THEN
-    LOGIN
-  ELSE
-    REGISTER(username, password)
-    LOGIN
-  ENDIF
-
-WHILE TRUE DO
-  DISPLAY "1 - Ievadīt adresi"
-  DISPLAY "2 - Ģenerēt maršrutu"
-  DISPLAY "3 - Maršrutu apstiprināšana"
-  DISPLAY "4 - Maršrutu karte"
-  DISPLAY "5 - Iziet"
-  INPUT user_choice
-
-  IF user_choice == 1 THEN
-    // Option 1: Ievadīt adresi
-    WHILE TRUE DO
-      INPUT address
-      SAVE_TO_DATABASE(address)
-      DISPLAY "Adrese saglabāta. Vai vēlaties:"
-      DISPLAY "1 - Ievadīt vēl vienu adresi"
-      DISPLAY "2 - Atgriezties izvēlē"
-      INPUT sub_choice
-      IF sub_choice == 2 THEN
-        BREAK
-      ENDIF
-    ENDWHILE
-
-  ELSE IF user_choice == 2 THEN
-    // Option 2: Ģenerēt maršrutu
-    WHILE TRUE DO
-      GENERATE_PENDING_ROUTE()
-      DISPLAY "Maršruts ģenerēts. Vai vēlaties:"
-      DISPLAY "1 - Ģenerēt jaunu maršrutu"
-      DISPLAY "2 - Atgriezties izvēlē"
+  START
+    // User Ielogoties vai Reģistrēties
+    INPUT username, password
+    IF user_has_account(username, password) THEN
+      LOGIN
+    ELSE
+      REGISTER(username, password)
+      LOGIN
+    ENDIF
+  
+  WHILE TRUE DO
+    DISPLAY "1 - Ievadīt adresi"
+    DISPLAY "2 - Ģenerēt maršrutu"
+    DISPLAY "3 - Maršrutu apstiprināšana"
+    DISPLAY "4 - Maršrutu karte"
+    DISPLAY "5 - Iziet"
+    INPUT user_choice
+  
+    IF user_choice == 1 THEN
+      // Option 1: Ievadīt adresi
+      WHILE TRUE DO
+        INPUT address
+        SAVE_TO_DATABASE(address)
+        DISPLAY "Adrese saglabāta. Vai vēlaties:"
+        DISPLAY "1 - Ievadīt vēl vienu adresi"
+        DISPLAY "2 - Atgriezties izvēlē"
+        INPUT sub_choice
+        IF sub_choice == 2 THEN
+          BREAK
+        ENDIF
+      ENDWHILE
+  
+    ELSE IF user_choice == 2 THEN
+      // Option 2: Ģenerēt maršrutu
+      WHILE TRUE DO
+        GENERATE_PENDING_ROUTE()
+        DISPLAY "Maršruts ģenerēts. Vai vēlaties:"
+        DISPLAY "1 - Ģenerēt jaunu maršrutu"
+        DISPLAY "2 - Atgriezties izvēlē"
+        INPUT sub_choice
+        IF sub_choice == 1 THEN
+          CONTINUE
+        ELSE IF sub_choice == 2 THEN
+          BREAK
+        ENDIF
+      ENDWHILE
+  
+    ELSE IF user_choice == 3 THEN
+      // Option 3: Maršrutu apstiprināšana
+      routes = FETCH_PENDING_ROUTES_FROM_DATABASE()
+      DISPLAY "Apstiprināmo maršrutu tabula:"
+      DISPLAY_TABLE(routes)
+      DISPLAY "1 - Apstiprināt maršrutu"
+      DISPLAY "2 - Atzīmēt kā pabeigtu un izdzēst adreses"
+      DISPLAY "3 - Atgriezties izvēlē"
       INPUT sub_choice
       IF sub_choice == 1 THEN
-        CONTINUE
+        INPUT route_id
+        APPROVE_ROUTE(route_id)
       ELSE IF sub_choice == 2 THEN
+        INPUT route_id
+        MARK_ROUTE_AS_COMPLETED(route_id)
+        DELETE_USED_ADDRESSES(route_id)
+      ELSE IF sub_choice == 3 THEN
         BREAK
       ENDIF
-    ENDWHILE
-
-  ELSE IF user_choice == 3 THEN
-    // Option 3: Maršrutu apstiprināšana
-    routes = FETCH_PENDING_ROUTES_FROM_DATABASE()
-    DISPLAY "Apstiprināmo maršrutu tabula:"
-    DISPLAY_TABLE(routes)
-    DISPLAY "1 - Apstiprināt maršrutu"
-    DISPLAY "2 - Atzīmēt kā pabeigtu un izdzēst adreses"
-    DISPLAY "3 - Atgriezties izvēlē"
-    INPUT sub_choice
-    IF sub_choice == 1 THEN
-      INPUT route_id
-      APPROVE_ROUTE(route_id)
-    ELSE IF sub_choice == 2 THEN
-      INPUT route_id
-      MARK_ROUTE_AS_COMPLETED(route_id)
-      DELETE_USED_ADDRESSES(route_id)
-    ELSE IF sub_choice == 3 THEN
+  
+    ELSE IF user_choice == 4 THEN
+      // Option 4: Maršrutu karte
+      routes = FETCH_APPROVED_ROUTES_FROM_DATABASE()
+      DISPLAY_MAP(routes)
+      DISPLAY "1 - Atgriezties izvēlē"
+      INPUT sub_choice
+      IF sub_choice == 1 THEN
+        BREAK
+      ENDIF
+  
+    ELSE IF user_choice == 5 THEN
+      // Option 5: Iziešana no programmas
+      DISPLAY "Uz redzēšanos!"
       BREAK
+  
+    ELSE
+      DISPLAY "Nederīga izvēle. Lūdzu mēģiniet vēlreiz."
     ENDIF
-
-  ELSE IF user_choice == 4 THEN
-    // Option 4: Maršrutu karte
-    routes = FETCH_APPROVED_ROUTES_FROM_DATABASE()
-    DISPLAY_MAP(routes)
-    DISPLAY "1 - Atgriezties izvēlē"
-    INPUT sub_choice
-    IF sub_choice == 1 THEN
-      BREAK
-    ENDIF
-
-  ELSE IF user_choice == 5 THEN
-    // Option 5: Iziešana no programmas
-    DISPLAY "Uz redzēšanos!"
-    BREAK
-
-  ELSE
-    DISPLAY "Nederīga izvēle. Lūdzu mēģiniet vēlreiz."
-  ENDIF
-ENDWHILE
-END
+  ENDWHILE
+  END
 
 
 <h2>Novērtējums</h2>
