@@ -69,8 +69,7 @@ es nezinu kas tas ir bet lkm vajag
 ### Algoritms
 ![Blokshema](https://github.com/user-attachments/assets/d2cb4d61-2b8f-4532-aa40-c99f291101c8)
 
-### Algoritma pseidokods
-
+### Algoritma pseidokods<br>
 START
   // User Login or Registration
   INPUT username, password
