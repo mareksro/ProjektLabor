@@ -12,7 +12,7 @@ Komanda:<br>
 
 <h2> Ievads </h2>
 <h5>Problēmas nostādne</h5>
-problemas nostadne seit
+
 
 <h5>Darba mērķis</h5>
 Projekta mērķis - Izstrādāt web lapu kas uzrāda izejošo pasūtījumu informāciju kā laiks un attālums, kur algoritms aprēķina izdevīgāko maršrutu pasūtījuma piegādei.<br>
@@ -64,7 +64,7 @@ OS: Windows Server 2022 <br>
 Virtualizācija: Oracle VMBox <br> 
 
 ### Programmatūras apraksts
-es nezinu kas tas ir bet lkm vajag
+Programma tiek rakstīta uz Python valodas, un tā kā mērķis ir izveidot mājaslapu, tiek izmantots Flask mājaslapu aplikācijas ietvars. Python Flask programma ietver vairākas funckijas, lai izstrādātu funkcionējamu maršruta izveidi un atlasi, ļaujot lietotājiem ievadīt konkrētu adresi vai vairākas. Pēc iespējas vairākas adreses tiek izdalītas katram kurjeram, lai kopējais maršruts būtu izdevīgs adrešu apmeklējuma nolūkos un lai iekļautos kurjera darbdienā. Programma ir apvienota ar lietotājiem draudzīgu saskarni, kur pats lietotājs var viegli mijiedarboties ar to. Visi ievadītie maršruti, reģistrētie lietotāji un adreses tiek saglabātas datubāzē ar PostgreSQL palīdzību, kas ir apvienota ar programmu. Pabeigtie maršruti tiek dzēsti, neuzrādot tos vairāk datubāzē.
 
 ### Algoritms
 ![Blokshema](https://github.com/user-attachments/assets/d2cb4d61-2b8f-4532-aa40-c99f291101c8)
