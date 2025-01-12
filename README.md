@@ -71,23 +71,23 @@ Programma tiek rakstīta uz Python valodas, un tā kā mērķis ir izveidot māj
 
 ### Algoritma pseidokods<br>
 
-  START
-    // User Ielogoties vai Reģistrēties
-    INPUT username, password
-    IF user_has_account(username, password) THEN
-      LOGIN
-    ELSE
-      REGISTER(username, password)
-      LOGIN
-    ENDIF
-  
-  WHILE TRUE DO
-    DISPLAY "1 - Ievadīt adresi"
-    DISPLAY "2 - Ģenerēt maršrutu"
-    DISPLAY "3 - Maršrutu apstiprināšana"
-    DISPLAY "4 - Maršrutu karte"
-    DISPLAY "5 - Iziet"
-    INPUT user_choice
+    START
+      // User Ielogoties vai Reģistrēties
+      INPUT username, password
+      IF user_has_account(username, password) THEN
+        LOGIN
+      ELSE
+        REGISTER(username, password)
+        LOGIN
+      ENDIF
+    
+    WHILE TRUE DO
+      DISPLAY "1 - Ievadīt adresi"
+      DISPLAY "2 - Ģenerēt maršrutu"
+      DISPLAY "3 - Maršrutu apstiprināšana"
+      DISPLAY "4 - Maršrutu karte"
+      DISPLAY "5 - Iziet"
+      INPUT user_choice
   
     IF user_choice == 1 THEN
       // Option 1: Ievadīt adresi
