@@ -59,7 +59,7 @@ Front-end (klienta puses) tehnoloģijas: Javascript, CSS, HTML, Pārlūks <br>
 Satvars (servera puse): Flask <br>
 Programmēšanas valoda: Python <br>
 Datu bāze datu glabāšanai: PostgreSQL <br>
-Serveris: XAMPP <br>
+Serveris: Internet Information Services <br>
 OS: Windows Server 2022 <br>
 Virtualizācija: Oracle VMBox <br> 
 
