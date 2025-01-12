@@ -58,4 +58,16 @@ Virtualizācija: Oracle VMBox <br>
 ### Algoritma pseidokods
 Būs algoritma pseidokods :)
 
+### Novērtēšanas plāns
 
+### Novērtēšanas rezultāts
+
+### Prasībuizpildes kontrolsaraksts
+| **Nr** | **Lietotāju stāsts** | **Izpildīts (Jā/Nē)** | **Komentārs** |
+| ------------- | ------------- | -------------  | -------------  |
+| 1. | Uzņēmums vēlas nodrošināt ātru piegādi, jo pasūtījumam jānonāk pie klienta savlaicīgi. | Jā| Komentārs|
+| 2. | Uzņēmums vēlas nogādāt preci labā stāvoklī, jo jānodrošina klienta uzticamība pakalpojumam. | Nē | Komentārs|
+| 3. | Uzņēmums vēlas efektīvākus maršrutus, jo jāpiegādā vairākas preces. | Jā | Komentārs|
+| 4. | Uzņēmums vēlas prognozēt pasūtījumu skaitu, jo jāmaksimizē peļņa. | Nē | Komentārs|
+| 5. | Uzņēmums vēlas uzticamus darbiniekus, jo jānodrošina augsta līmeņa serviss | Nē | Komentārs|
+| 6. | Uzņēmums vēlas izvairīties no pēdējā brīdī atceltiem pasūtījumiem, jo tiek tērēti lieki resursi. | Jā | Komentārs|
