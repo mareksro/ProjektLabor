@@ -5,7 +5,7 @@
 Komanda:<br>
   - Lauma Gailīte<br>
   - Helēna Anna Bunka<br>
-  - Kevins Deivs Gūtmanis<br>
+  - Deivs Kevins Gūtmanis<br>
   - Emīls Laucis<br>
   - Mareks Rozenblats<br>
 </h6>
@@ -90,3 +90,12 @@ Būs algoritma pseidokods :)
 | 4. | Uzņēmums vēlas prognozēt pasūtījumu skaitu, jo jāmaksimizē peļņa. | Nē | Komentārs|
 | 5. | Uzņēmums vēlas uzticamus darbiniekus, jo jānodrošina augsta līmeņa serviss | Nē | Komentārs|
 | 6. | Uzņēmums vēlas izvairīties no pēdējā brīdī atceltiem pasūtījumiem, jo tiek tērēti lieki resursi. | Jā | Komentārs|
+
+### Grupas dalībnieku veikumi
+| **Grupas dalībnieks** | **Veikums** |
+| ------------- | ------------- |
+| Lauma Gailīte | |
+| Helēna Anna Bunka | |
+| Mareks Rozenblats | |
+| Deivs Kevins Gūtmanis | |
+| Emīls Laucis | |
