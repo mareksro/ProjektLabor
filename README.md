@@ -170,18 +170,18 @@ es nezinu kas tas ir bet lkm vajag
 ### Prasību izpildes kontrolsaraksts
 | **Nr** | **Lietotāju stāsts** | **Izpildīts (Jā/Nē)** | **Komentārs** |
 | ------------- | ------------- | -------------  | -------------  |
-| 1. | Uzņēmums vēlas nodrošināt ātru piegādi, jo pasūtījumam jānonāk pie klienta savlaicīgi. | Jā| Komentārs|
-| 2. | Uzņēmums vēlas nogādāt preci labā stāvoklī, jo jānodrošina klienta uzticamība pakalpojumam. | Nē | Komentārs|
-| 3. | Uzņēmums vēlas efektīvākus maršrutus, jo jāpiegādā vairākas preces. | Jā | Komentārs|
-| 4. | Uzņēmums vēlas prognozēt pasūtījumu skaitu, jo jāmaksimizē peļņa. | Nē | Komentārs|
-| 5. | Uzņēmums vēlas uzticamus darbiniekus, jo jānodrošina augsta līmeņa serviss | Nē | Komentārs|
-| 6. | Uzņēmums vēlas izvairīties no pēdējā brīdī atceltiem pasūtījumiem, jo tiek tērēti lieki resursi. | Jā | Komentārs|
+| 1. | Uzņēmums vēlas nodrošināt ātru piegādi, jo pasūtījumam jānonāk pie klienta savlaicīgi. | Jā| Algoritms izveido kurjera maršrutu tā, lai būtu jāprauc pa īsāko ceļu.|
+| 2. | Uzņēmums vēlas nogādāt preci labā stāvoklī, jo jānodrošina klienta uzticamība pakalpojumam. | Nē | Šis netika izstrādāts, jo tas nav vērsts uz web lapas izstrādi, bet gan cilvēkresursiem, cik atbildīgi ir kurjeri un noliktavas darbinieki. |
+| 3. | Uzņēmums vēlas efektīvākus maršrutus, jo jāpiegādā vairākas preces. | Jā | Izstrādātais algoritms kurjeram izveido maršrutu ar pēc iespējas vairāk gala punktiem balstoties uz to ka kurjeram vidēji darba diena ir 7h 30 min.|
+| 4. | Uzņēmums vēlas prognozēt pasūtījumu skaitu, jo jāmaksimizē peļņa. | Nē | Šis netika izstrādāts, jo nepietika laika, taču ja būtu vēl laiks un daudz ievadies dati uz ko balstīties, uzņēmumam tas būtu noderīgi.|
+| 5. | Uzņēmums vēlas uzticamus darbiniekus, jo jānodrošina augsta līmeņa serviss | Nē | Šis netika izpildīts jo attiecas uz cilvēkresursiem nevis web lapas izstrādi.|
+| 6. | Uzņēmums vēlas izvairīties no pēdējā brīdī atceltiem pasūtījumiem, jo tiek tērēti lieki resursi. | Jā | Ja adrese tiek ievadīta datu bāzē, tad kurjers sūtījumu piegādās klientam, jo ievadot adresi vairs nav iespējams atcelt sūtījumu.|
 
 ### Grupas dalībnieku veikumi
 | **Grupas dalībnieks** | **Veikums** |
 | ------------- | ------------- |
-| Lauma Gailīte | |
-| Helēna Anna Bunka | |
-| Mareks Rozenblats | |
-| Deivs Kevins Gūtmanis | |
-| Emīls Laucis | |
+| Lauma Gailīte | Līdzīgo risinajumu pārskats, lietotāju stāsti, konceptu modeļa diagramma, tehnoloģiju steks, UI dizains. |
+| Helēna Anna Bunka | Līdzīgo risinajumu pārskats, lietotāju stāsti, konceptu modeļa diagramma, tehnoloģiju steks, back-end, blokshēma, pseidokods, prasību izpildes kontrolsaraksts.|
+| Mareks Rozenblats | Līdzīgo risinajumu pārskats, lietotāju stāsti, konceptu modeļa diagramma, tehnoloģiju steks, back-end, datu bāze.|
+| Deivs Kevins Gūtmanis | Līdzīgo risinajumu pārskats, lietotāju stāsti, konceptu modeļa diagramma, tehnoloģiju steks, serveris, blokshēma.|
+| Emīls Laucis | Līdzīgo risinajumu pārskats, lietotāju stāsti, konceptu modeļa diagramma, tehnoloģiju steks, datu bāze, efektivitāes novērtēšana, pakāts.|
