@@ -52,3 +52,10 @@ Serveris: XAMPP <br>
 OS: Windows Server 2022 <br>
 Virtualizācija: Oracle VMBox <br> 
 
+### Algoritms
+![Actions are written here](https://github.com/user-attachments/assets/79291762-aebe-4447-80fd-493c2e5a2965)
+
+### Algoritma pseidokods
+Būs algoritma pseidokods :)
+
+
