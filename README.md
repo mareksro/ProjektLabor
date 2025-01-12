@@ -81,7 +81,7 @@ Būs algoritma pseidokods :)
 
 <h2>Secinājumi</h2>
 
-### Prasībuizpildes kontrolsaraksts
+### Prasību izpildes kontrolsaraksts
 | **Nr** | **Lietotāju stāsts** | **Izpildīts (Jā/Nē)** | **Komentārs** |
 | ------------- | ------------- | -------------  | -------------  |
 | 1. | Uzņēmums vēlas nodrošināt ātru piegādi, jo pasūtījumam jānonāk pie klienta savlaicīgi. | Jā| Komentārs|
