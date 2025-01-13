@@ -171,9 +171,9 @@ Programma tiek rakstīta uz Python valodas, un tā kā mērķis ir izveidot māj
 • Maršrutu kvalitāte, koncentrējoties uz vidējo laiku starp pieturām.<br>
 • Vispārējā loģistikas efektivitāte.<br>
 <br><h5>
-### Novērtēšanas rezultāts
-![image](https://github.com/user-attachments/assets/26b7b248-1818-41f3-9c4b-b85da2630e2e)
-
+<h5>Novērtēšanas rezultāts <h5><br>
+  
+![Ekrānuzņēmums 2025-01-13 071702](https://github.com/user-attachments/assets/322c8ee6-e5c3-4f98-b2da-380e95f94310)
 
 <h2>Secinājumi</h2>
 
