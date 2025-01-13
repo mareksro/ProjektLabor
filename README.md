@@ -163,9 +163,17 @@ Programma tiek rakstīta uz Python valodas, un tā kā mērķis ir izveidot māj
 <h2>Novērtējums</h2>
 
 ### Novērtēšanas plāns
+• Apkopot un pārbaudīt sākotnējos datus par šoferiem: laiku, nobraukumu, adrešu skaitu un vidējo laiku starp pieturām. <br> • Izveidot sākotnējos statistiskos rādītājus: vidējās vērtības, standartnovirzes un sadalījuma līdzsvarotību.<br>
 <h5>Novērtēšanas mērķis</h5>
-
+<h5>Mērķis ir novērtēt algoritma efektivitāti maršrutu plānošanā, ņemot vērā šādus kritērijus:<br>
+• Darba līdzsvars starp šoferiem (adrešu un laika sadalījums).<br>
+• Resursu optimizācija (nobraukums un degvielas izmaksas).<br>
+• Maršrutu kvalitāte, koncentrējoties uz vidējo laiku starp pieturām.<br>
+• Vispārējā loģistikas efektivitāte.<br>
+<br><h5>
 ### Novērtēšanas rezultāts
+![image](https://github.com/user-attachments/assets/26b7b248-1818-41f3-9c4b-b85da2630e2e)
+
 
 <h2>Secinājumi</h2>
 
