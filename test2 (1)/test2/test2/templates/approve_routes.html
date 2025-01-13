@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maršruti</title>
+    <link rel="stylesheet" href="static/css/dizains.css">
+</head>
+<body>
+    <h1>Maršrutu plānojums</h1>
+    <form method="POST" action="/approve_routes">
+        <h2>Izejošie maršruti</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Maršruts</th>
+                    <th>Šofera vārds</th>
+                    <th>Adreses</th>
+                    <th>Apstiprināt</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for route in pending_routes %}
+                <tr>
+                    <td>{{ route.id }}</td>
+                    <td>{{ route.driver_name }}</td>
+                    <td>{{ route.addresses }}</td>
+                    <td><input type="checkbox" name="approved_route_ids" value="{{ route.id }}"></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <h2>Pabeigtie maršruti</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Maršruta ID</th>
+                    <th>Šofera vārds</th>
+                    <th>Addreses</th>
+                    <th>Apstiprināt & Dzēst</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for route in approved_routes %}
+                <tr>
+                    <td>{{ route.id }}</td>
+                    <td>{{ route.driver_name }}</td>
+                    <td>{{ route.addresses }}</td>
+                    <td><input type="checkbox" name="complete_route_ids" value="{{ route.id }}"></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <button type="submit">Apstrādāt maršrutus</button>
+    </form>
+</body>
+</html>

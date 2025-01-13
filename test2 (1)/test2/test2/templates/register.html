@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reģistrācija</title>
+    <link rel="stylesheet" href="static/css/dizains.css">
+</head>
+<body>
+    <style>
+        body{
+            background: url('static/images/lv.png') no-repeat bottom right;
+            background-size: auto 50%;
+        }
+    </style>
+    <div class="galvenais">
+        <img class="logo" src="static/images/p1.png">
+        <h1>Reģistrācija</h1>
+        <form method="POST" action="/register">
+            <input type="text" name="username" placeholder="Lietotajvārds" required><br><br>
+            <input type="password" name="password" placeholder="Parole" required><br><br>
+            <button type="submit" href="/map">Ienākt</button>
+        </form>
+        <h3>Ir jau izveidots konts?</h3>
+        <a href="/login">Ienākt portalā</a>
+    </div>
+</body>
+</html>
